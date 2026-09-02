@@ -1,0 +1,47 @@
+body {
+    background-color: #FFF8E7;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+}
+
+#search {
+    padding: 10px;
+    width: 250px;
+    margin: 20px;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.book {
+    background-color: white;
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+}
+
+.book h2 {
+    color: darkgreen;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
