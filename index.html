@@ -1,61 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Online Book Store</title>
-    <link rel="stylesheet" href="catalogue.css">
+    <title>Bello Cafe - Menu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>ONLINE BOOK STORE</h1>
+    <h1>BELLO CAFE</h1>
+    <h2>Our Menu</h2>
 
     <input type="text" id="search"
-           placeholder="Search Book..."
-           onkeyup="searchBooks()">
+           placeholder="Search item..."
+           onkeyup="searchItems()">
 
-    <div class="books">
+    <div class="menu">
 
-        <div class="book">
-            <h2>Wings of Fire</h2>
-            <p>Author: A.P.J. Abdul Kalam</p>
-            <p>Price: ₹300</p>
-            <button onclick="addToCart('Wings of Fire')">
+        <div class="item">
+            <h3>Coffee</h3>
+            <p>Price: ₹100</p>
+            <button onclick="addToCart('Coffee')">
                 Add to Cart
             </button>
         </div>
 
-        <div class="book">
-            <h2>Rich Dad Poor Dad</h2>
-            <p>Author: Robert Kiyosaki</p>
-            <p>Price: ₹400</p>
-            <button onclick="addToCart('Rich Dad Poor Dad')">
+        <div class="item">
+            <h3>Tea</h3>
+            <p>Price: ₹70</p>
+            <button onclick="addToCart('Tea')">
                 Add to Cart
             </button>
         </div>
 
-        <div class="book">
-            <h2>The Alchemist</h2>
-            <p>Author: Paulo Coelho</p>
-            <p>Price: ₹350</p>
-            <button onclick="addToCart('The Alchemist')">
+        <div class="item">
+            <h3>Burger</h3>
+            <p>Price: ₹180</p>
+            <button onclick="addToCart('Burger')">
                 Add to Cart
             </button>
         </div>
 
-        <div class="book">
-            <h2>Atomic Habits</h2>
-            <p>Author: James Clear</p>
-            <p>Price: ₹500</p>
-            <button onclick="addToCart('Atomic Habits')">
+        <div class="item">
+            <h3>Pizza</h3>
+            <p>Price: ₹250</p>
+            <button onclick="addToCart('Pizza')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="item">
+            <h3>French Fries</h3>
+            <p>Price: ₹120</p>
+            <button onclick="addToCart('French Fries')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="item">
+            <h3>Mocktail</h3>
+            <p>Price: ₹150</p>
+            <button onclick="addToCart('Mocktail')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="item">
+            <h3>Dessert</h3>
+            <p>Price: ₹130</p>
+            <button onclick="addToCart('Dessert')">
                 Add to Cart
             </button>
         </div>
 
     </div>
 
-    <h2 id="cart">Cart: 0 books</h2>
+    <h2 id="cart">Cart: 0 items</h2>
 
-    <script src="catalogue.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
