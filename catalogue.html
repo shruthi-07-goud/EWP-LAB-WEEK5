@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Store</title>
+    <link rel="stylesheet" href="catalogue.css">
+</head>
+
+<body>
+
+    <h1>ONLINE BOOK STORE</h1>
+
+    <input type="text" id="search"
+           placeholder="Search Book..."
+           onkeyup="searchBooks()">
+
+    <div class="books">
+
+        <div class="book">
+            <h2>Wings of Fire</h2>
+            <p>Author: A.P.J. Abdul Kalam</p>
+            <p>Price: ₹300</p>
+            <button onclick="addToCart('Wings of Fire')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="book">
+            <h2>Rich Dad Poor Dad</h2>
+            <p>Author: Robert Kiyosaki</p>
+            <p>Price: ₹400</p>
+            <button onclick="addToCart('Rich Dad Poor Dad')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="book">
+            <h2>The Alchemist</h2>
+            <p>Author: Paulo Coelho</p>
+            <p>Price: ₹350</p>
+            <button onclick="addToCart('The Alchemist')">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="book">
+            <h2>Atomic Habits</h2>
+            <p>Author: James Clear</p>
+            <p>Price: ₹500</p>
+            <button onclick="addToCart('Atomic Habits')">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+
+    <h2 id="cart">Cart: 0 books</h2>
+
+    <script src="catalogue.js"></script>
+
+</body>
+</html>
