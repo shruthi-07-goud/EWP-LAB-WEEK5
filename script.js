@@ -1,6 +1,7 @@
 let count = 0;
 
 function addToCart(item) {
+
     count++;
 
     document.getElementById("cart").innerHTML =
@@ -24,7 +25,8 @@ function searchItems() {
 
         if (name.includes(search)) {
             items[i].style.display = "block";
-        } else {
+        }
+        else {
             items[i].style.display = "none";
         }
     }
