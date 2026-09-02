@@ -24,8 +24,7 @@ function searchItems() {
 
         if (name.includes(search)) {
             items[i].style.display = "block";
-        }
-        else {
+        } else {
             items[i].style.display = "none";
         }
     }
