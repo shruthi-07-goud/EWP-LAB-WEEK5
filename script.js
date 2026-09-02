@@ -24,7 +24,7 @@ function searchItems() {
                     .innerText.toLowerCase();
 
         if (name.includes(search)) {
-            items[i].style.display = "block";
+            items[i].style.display = "flex";
         }
         else {
             items[i].style.display = "none";
